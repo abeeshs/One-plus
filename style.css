@@ -3,10 +3,19 @@
 }
 
 .navbar {
+    
     position: fixed !important;
     top: 0;
     z-index: 100;
     width: 100%;
+}
+.bgcolor:hover,.navbar:hover .nav-link{
+background: white;
+color: #000000!important;
+}
+.bg-image{
+    fill: #fff;
+    
 }
 
 .navbar-img {
@@ -67,10 +76,53 @@ input{
 li{
     line-height: 2 !important;
 }
-footer{
-    
+footer{ 
     width: 100%;
-   
     border-top:1px solid black;
     padding-top: 2rem;
+}
+.srcl{
+    display: flex;
+    overflow-x: auto;
+    
+}
+.srcl ::-webkit-scrollbar{
+    width: 0;
+}
+.box{
+    min-width: 12rem;
+    
+
+}
+.power img{
+    height: 100%;
+}
+.india{
+    display: flex;
+}
+.black-box{
+    align-items: center;
+    
+}
+.black-box label{
+   
+}
+.black-box input{
+    width:25rem;
+    height: 2rem;
+    border: 1px solid #ffffff83;
+
+}
+.black-box p{
+    line-height: 65px;
+}
+.list ul{
+    text-align: center;
+}
+.list ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+#last{
+    text-align: center;
 }
